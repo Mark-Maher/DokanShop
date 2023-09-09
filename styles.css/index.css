@@ -130,6 +130,9 @@ h4 {
 .sec-row {
   border-top: 2px gray solid;
 }
+.dropdown-menu li {
+  text-align: start;
+}
 .social :first-child :hover {
   color: blue;
 }
