@@ -1,0 +1,206 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+/* start header */
+.header {
+  background-color: #343a40 !important;
+}
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+}
+.fa-solid {
+  font-size: 3em;
+  color: white;
+}
+.navbar {
+  background-color: #343a40 !important;
+}
+.active {
+  color: indianred !important;
+}
+.navbar-collapse ul li a:hover {
+  background-color: indianred;
+  color: white !important;
+  border-radius: 18%;
+  padding: 0.5em;
+  transform: scale(0.8);
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+.navbar-collapse ul .dropdown-menu {
+  background-color: indianred;
+  color: white !important;
+  transform: scale(0.8);
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+/* end header */
+*/ .eltbka {
+  position: relative;
+}
+.eltbka::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 60%);
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+.carousel-indicators {
+  z-index: 1000;
+  cursor: pointer;
+}
+h1 {
+  font-size: 3em;
+  line-height: 2em;
+}
+p {
+  color: #777;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 2em;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  flex-basis: 15%;
+}
+.btn-danger:hover {
+  border: none;
+  transform: scale(1.2);
+  transition: 0.3s all ease;
+}
+.img-top {
+  position: relative;
+}
+.img-top p:hover {
+  position: absolute;
+  color: white;
+  top: 2%;
+  left: 2%;
+  background-color: rgba(205, 92, 92, 90%);
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 4px auto;
+  transform: scale(0.8);
+  transition: 0.5s;
+  opacity: 100%;
+  overflow: hidden;
+}
+/* start-footer */
+.footer {
+  width: 100%;
+  background-color: #343a40;
+  line-height: 1.5em;
+}
+h4 {
+  font-size: 21px;
+  color: white;
+  line-height: 3;
+  font-weight: 500;
+}
+.footer a {
+  font-weight: 300;
+  font-size: 14px;
+}
+.footer .logo a {
+  font-size: 2em;
+  font-weight: bold;
+}
+.sec-row {
+  border-top: 2px gray solid;
+}
+.social :first-child :hover {
+  color: blue;
+}
+.social :nth-child(2):hover {
+  color: aqua;
+}
+.social :nth-child(3):hover {
+  color: green;
+}
+.social :nth-child(4):hover {
+  color: red;
+}
+/* end-footer */
+
+@media (max-width: 487px) {
+  .navbar-brand {
+    font-size: 1em;
+  }
+  .fa-solid {
+    font-size: 2em;
+  }
+  .img-top p {
+    font-size: 0.1em;
+    height: 5px;
+  }
+  a {
+    font-size: 0.4em;
+  }
+  .nav-left {
+    font-size: 0.6em;
+    padding-bottom: 0;
+  }
+}
+.img-top p {
+  height: 17pc;
+  font-size: 45px;
+  padding-top: 40px;
+  /* width: 80%; */
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+}
+.form {
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+  .elcon {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .main {
+    flex-direction: column !important;
+    justify-content: center;
+    text-align: center;
+  }
+  .form {
+    width: 100%;
+  }
+  .submit {
+    text-align: center !important;
+  }
+}
+@media (max-width: 767px) {
+  .carousel {
+    height: calc(100vh-10vh);
+  }
+  .first-row {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+}

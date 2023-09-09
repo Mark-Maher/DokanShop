@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/images/main-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/styles.css/all.min.css" />
+    <link rel="stylesheet" href="/styles.css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles.css/index.css" />
+    <title>DokanShop</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header fixed-top">
+      <div class="container ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+          <div class="container-fluid ">
+            <div class="logo">
+              <i class="fa-solid fa-user-secret me-1"></i>
+            <a class="navbar-brand text-light fs-2" href="#">DokanShop</a>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-light fs-6 fw-bold " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-6 fw-bold" href="#products">Latest Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-6 fw-bold" href="#deals">top-deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-6 fw-bold" href="#">Log In</a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle text-light fs-6 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu bg-dark">
+                    <li><a class="dropdown-item text-light mb-1" href="#">About Us</a></li>
+                    <li><a class="dropdown-item text-light mb-1" href="#">Men's</a></li>
+                    <li><a class="dropdown-item text-light mb-1" href="#">Woman's</a></li>
+                    <li><a class="dropdown-item text-light mb-1" href="#">kids's</a></li>
+                    <li><a class="dropdown-item text-light mb-1" href="#">Accessories's</a></li>
+                    <li><a class="dropdown-item text-light mb-1 border-top border-danger" href="#">Contact Us</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- end header -->
+    <div id="carouselExampleCaptions" class="carousel  mb-5 eltbka">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner d-block">
+        <div class="carousel-item active">
+          <img src="/images/women-001.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h5>Women's Fashion</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/men-001.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h5>Men's Fashion</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/kid-001.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h5>Accessories</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/accessories-001.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>Kids's Fashion</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="sec-section" id="products">
+      <div class="container mb-5">
+        <div class="text text-center">
+          <h1 >Latest Products</h1>
+          <p>Here , You Can Find Our Newest Products</p>
+        </div>
+        <div
+          class="products d-flex flex-wrap text-align-center justify-content-evenly"
+        >
+          <div class="card1 col-lg-3 col-md-6 col-sm-12 m-1">
+            <div><img src="/images/women-01.jpg" width="255px" alt="" /></div>
+            <div class="icons m-2  fs-1  d-flex justify-content-between">
+              <i class="fas fa-heart <i class=" style="color: #ced4df;"></i> </i>
+              <i class="fas fa-cart-plus <i class=" style="color: #ced4df; "></i>
+            </div>
+            <div class="elcontent text-center ">
+              <h5>New Green Jacket</h5>
+              <p>EGP 290.0</p>
+              <a href="" class="btn btn-danger">See more</a>
+            </div>
+          </div>
+          <div class="card2 col-lg-3 col-md-6 col-sm-12 m-1">
+            <div><img src="/images/men-01.jpg" width="255px" alt="" /></div>
+            <div class="icons m-2 fs-1 d-flex justify-content-between">
+              <i class="fas fa-heart <i class=" style="color: #ced4df;"></i>
+              <i class="fas fa-cart-plus <i class=" style="color: #ced4df;"></i>
+            </div>
+            <div class="elcontent text-center">
+              <h5>Classic Spring</h5>
+              <p>EGP 150.0</p>
+              <a href="" class="btn btn-danger">See more</a>
+            </div>
+          </div>
+          <div class="card3 col-lg-3 col-md-6 col-sm-12 m-1">
+            <div><img src="/images/kid-01.jpg" width="255px" alt="" /></div>
+            <div class="icons m-2 fs-1 d-flex justify-content-between">
+              <i class="fas fa-heart <i class=" style="color: #ced4df;"></i>
+              <i class="fas fa-cart-plus <i class=" style="color: #ced4df;"></i>
+            </div>
+            <div class="elcontent text-center">
+              <h5>School Collection</h5>
+              <p>EGP 295.0</p>
+              <a href="" class="btn btn-danger">See more</a>
+            </div>
+          </div>
+          <div class="card4 col-lg-3 col-md-6 col-sm-12 m-1">
+            <div>
+              <img src="/images/accessories-01.jpg" width="255px" alt="" />
+            </div>
+            <div class="icons m-2 fs-1 d-flex justify-content-between">
+              <i class="fas fa-heart <i class=" style="color: #ced4df;"></i>
+              <i class="fas fa-cart-plus <i class=" style="color: #ced4df;"></i>
+            </div>
+            <div class="elcontent text-center">
+              <h5>Accessoriest</h5>
+              <p>EGP 85.00</p>
+              <a href="" class="btn btn-danger">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="thied-sec mb-5">
+      <div class="container">
+        <div class="text text-center">
+          <h1>Dokan Shop Store</h1>
+          <p>This Is Our Store In Real, Don't Miss To Visit Us</p>
+        </div>
+        <div class="vid text-center ">
+          <video src="/video/videoplayback.mp4" controls   width="80%"></video>
+        </div>
+      </div>
+    </div>
+    <div class="f-sec " id="deals">
+      <div class="container">
+        <div class="text text-center">
+          <h1>Hot Deals</h1>
+          <p>Searching For Special Things! You Can Find Our Latest Deals Here</p>
+        </div>
+        <div class="top-deals d-flex flex-wrap justify-content-evenly mb-5">
+          <div class="img-top card col-lg-5 col-md-5 col-sm-12 col-xs-12 deal-3 m-3"><img src="/images/deal-02.jpg" alt="">
+            <p class="lead deals">enjoy 50% discount on black friday</p></div>
+          <div class="img-top card col-lg-5 col-md-5 col-sm-12 col-xs-12 deal-3 m-3"><img src="/images/deal-03.jpg" alt="">
+            <p class="lead deals">enjoy 50% discount on black friday</p></div>
+          <div class="img-top card col-lg-5 col-md-5 col-sm-12 col-xs-12 deal-3 m-3"><img src="/images/deal-07.jpg" alt=""><p class="lead deals">enjoy 50% discount on black friday</p></div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="feedback-sec mb-5">
+      <div class="container">
+        <div class="text text-center">
+          <h1>Feedback</h1>
+          <p>We Will Be Very Happy , If You Subbmit You Feedback For Any Other Special Request</p>
+        </div>
+        <div class="main d-flex justify-content-around
+        ">
+          <div class="form d-flex flex-column ">
+            <input type="text " class="m-2 p-2" placeholder="Your Name">
+            <input type="text" class="m-2 p-2" placeholder="Your Email">
+            <textarea name="" class="m-2 p-2" id="" cols="30" rows="10" placeholder="Your Feedback"></textarea> 
+            <div class="btn text-end submit">
+              <button class="btn btn-danger ">Submit</button>
+            </div>
+          </div>
+          <div class="about">
+            <div class="div">
+              <h4 class="text-danger fs-2">Address :</h4>
+              <p class="pt-2">16.B ElMariotia, Faisal
+                Giza, Egypt </p>
+            </div>
+            <div class="div">
+              <h4 class="text-danger fs-2">E-Mail :
+              </h4>
+              <p class="pt-2">Dokanshop@Company.Com</p>
+            </div><div class="div">
+              <h4 class="text-danger fs-2">Mobile Number :</h4>
+              <p class="pt-2">+20-11-195-544-63</p>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+   
+    </div>
+    <!-- start footer -->
+    <div class="footer pt-3 pb-5">
+      <div class="container">
+
+       <div class="first-row d-flex flex-wrap  justify-content-between">
+
+        <div class="1logo col-lg-3 col-md-6 col-xs-12 d-flex align-items-center ">
+          <div class="logo ">
+            <i class="fa-solid fa-user-secret  me-1"></i>
+          <a class="navbar-brand text-light  " href="#">DokanShop</a>
+          </div>
+        </div>
+        <div class="shopping-cat col-lg-3 col-md-6 col-xs-12">
+          <h4>Shopping & Categories</h4>
+          <ul><li><a href="">Men's shopping</a></li>
+          <li><a href="">Women's shopping</a></li>
+          <li><a href="">Kids's shopping</a></li>
+          <li><a href="">Accessories</a></li></ul>
+        </div>
+        <div class="useful-link col-lg-3 col-md-6 col-xs-12">
+          <h4>Useful Links</h4>
+          <ul><li><a href="">Home Page</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact</a></li></ul>
+        </div>
+        <div class="help col-lg-3 col-md-6 col-xs-12">
+          <h4>Help & Information</h4>
+          <ul><li><a href="">Help</a></li>
+          <li><a href="">FAQ'S</a></li>
+          <li><a href="">Track Your Shipping</a></li></ul>
+        </div>
+      </div>
+      <div class="sec-row d-flex justify-content-center flex-column text-center ">
+        
+        <p class="text-light pt-4 pb-1 mb-3">Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.
+
+        </p>
+        <div class="social">
+          <a href="https://www.facebook.com/Meta" target="_blank"><i class="fa-brands fa-facebook-f me-4"></i></a><a href="https://twitter.com/Meta  " target="_blank"><i class="fa-brands fa-twitter me-4" ></i></a><a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp me-4" ></i></a><a href="https://www.youtube.com/?gl=EG&hl=ar" target="_blank"><i class="fa-brands fa-youtube me-4"></i></a>
+
+        </div>
+      </div>
+        
+        
+      </div>
+      
+       </div>
+       <!-- end footer -->
+    </div>
+    
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
