@@ -14,7 +14,7 @@ li {
   list-style: none;
 }
 /* start header */
-.header {
+.container-fluid {
   background-color: #343a40 !important;
 }
 .navbar-brand {
@@ -115,12 +115,13 @@ p {
 h4 {
   font-size: 21px;
   color: white;
-  line-height: 3;
+  line-height: 4em;
   font-weight: 500;
 }
 .footer a {
   font-weight: 300;
   font-size: 14px;
+  line-height: 3em;
 }
 .footer .logo a {
   font-size: 2em;
