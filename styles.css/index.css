@@ -133,6 +133,9 @@ h4 {
 .dropdown-menu li {
   text-align: start;
 }
+.first-row ul li :hover {
+  color: indianred !important;
+}
 .social :first-child :hover {
   color: blue;
 }
